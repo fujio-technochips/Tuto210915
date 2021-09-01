@@ -6,7 +6,8 @@ import tkinter.messagebox
 def get_filename():
     root=tkinter.Tk()    # 一番外に必要
     root.withdraw()    # 一番外に必要
-    fTyp=[('pynote','*.ipynb'),('All','*.*')]
+    root.attributes("-topmost", True)       #<-最前面
+    fTyp=[('pynote','*.ipynb'),('python','*.py'),('全て','*.*')]
     f =  tkinter.filedialog.askopenfilename(filetypes=fTyp)
     #print(f)
     return f
