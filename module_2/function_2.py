@@ -1,5 +1,5 @@
 #上記の%%writefile sub1.pyｈ
-print("function_2.pyをロードしましたよ～")
+print("function_2.pyをロードしましたよ～~~")
 import os
 def ExchangeExtension(fname,newext):
     print(f"付け替え {fname} -> {newext}")
