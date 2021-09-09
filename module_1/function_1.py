@@ -7,7 +7,7 @@ def get_filename():
     root=tkinter.Tk()    # 一番外に必要
     root.withdraw()    # 一番外に必要
 <<<<<<< HEAD
-    root.attributes("-topmost", True)       #<-最前面さらにマスターに追加さらにマスターに追加
+    root.attributes("-topmost", True)       #<-最前面さらにマスターに追加さらにマスターに追加さらにマスターに追加
 =======
     root.attributes("-topmost", True)       #<-最前面
     #競合するように変更した
