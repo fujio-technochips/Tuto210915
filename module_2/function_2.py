@@ -1,4 +1,4 @@
-#上記の%%writefile sub1.pyｈ
+##上記の%%writefile sub1.pyｈ
 print("function_2.pyをロードしましたよ～")
 import os
 def ExchangeExtension(fname,newext):
