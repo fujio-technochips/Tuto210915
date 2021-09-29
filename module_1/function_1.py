@@ -11,3 +11,5 @@ def get_filename():
     f =  tkinter.filedialog.askopenfilename(filetypes=fTyp)
     #print(f)
     return f
+
+test
